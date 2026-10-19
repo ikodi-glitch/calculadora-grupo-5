@@ -1,5 +1,7 @@
 package es.plaiaundi.ed.calculadora;
 
+import java.util.Scanner;
+
 /**
  * Calculadora basica del equipo.
  * Cada operacion la implementa una persona distinta, en su propia rama.
@@ -41,7 +43,11 @@ public class Calculadora {
      * @return a * b
      */
     public int multiplicar(int a, int b) {
-        // TODO Persona C: implementar la multiplicacion
-        throw new UnsupportedOperationException("multiplicar() pendiente de implementar");
+    	Scanner sc = new Scanner(System.in);
+//    	int a = sc.nextInt();
+//    	int b = sc.nextInt();
+    	int mult = a * b ;
+    	return mult;
+        
     }
 }
