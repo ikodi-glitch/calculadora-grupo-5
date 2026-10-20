@@ -28,5 +28,9 @@ class SumaTest {
         assertEquals(9, calc.sumar(9, 0));
     }
 
-    // TODO Persona A: anade aqui tu propio caso de prueba
+    @Test
+    @DisplayName("7 + -7 = 0")
+    void sumaNumerosOpuestos() {
+        assertEquals(0, calc.sumar(7, -7));
+    }
 }
