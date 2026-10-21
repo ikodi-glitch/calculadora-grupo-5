@@ -28,5 +28,9 @@ class MultiplicacionTest {
         assertEquals(0, calc.multiplicar(7, 0));
     }
 
-    // TODO Persona C: anade aqui tu propio caso de prueba
+    @Test
+    @DisplayName("-3 x -4 = 12")
+    void multiplicaDosNegativos() {
+        assertEquals(12, calc.multiplicar(-3, -4));
+    }
 }
