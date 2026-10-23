@@ -29,8 +29,7 @@ public class Calculadora {
      * @return a - b
      */
     public int restar(int a, int b) {
-        // TODO Persona B: implementar la resta
-        throw new UnsupportedOperationException("restar() pendiente de implementar");
+    	return a - b;
     }
 
     /**

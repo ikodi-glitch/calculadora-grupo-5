@@ -10,6 +10,7 @@ public class Main {
         System.out.println("=== Calculadora del equipo ===");
         // Demostraciones: cada persona anade AQUI debajo su linea
         System.out.println("7 + 5 = " + calc.sumar(7, 5));
+        System.out.println("Resta: " + calc.restar(10, 5));
         System.out.println("7 x 5 = " + calc.multiplicar(7, 5));
     }
 }
